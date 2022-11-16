@@ -1,1 +1,1 @@
-# boilerplate-schema
+# @2ppl/boilerplate-schema
