@@ -6,8 +6,8 @@ export const entity = Type.Object({
   name: Type.String(),
   passwordHash: Type.String(),
   passwordSalt: Type.String(),
-  createdAt: Type.Integer(),
-  updatedAt: Type.Integer(),
+  createdAt: Type.String(),
+  updatedAt: Type.String(),
 });
 
 export const singleEntity = entity;

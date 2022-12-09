@@ -5,12 +5,12 @@ import * as User from '../user';
 export const entity = Type.Object({
   id: Type.String(),
   accessToken: Type.String(),
-  accessTokenExpiredAt: Type.Integer(),
+  accessTokenExpiredAt: Type.String(),
   refreshToken: Type.String(),
-  refreshTokenExpiredAt: Type.Integer(),
+  refreshTokenExpiredAt: Type.String(),
   userId: Type.String(),
-  createdAt: Type.Integer(),
-  updatedAt: Type.Integer(),
+  createdAt: Type.String(),
+  updatedAt: Type.String(),
 });
 
 export const singleEntity = Type.Intersect([

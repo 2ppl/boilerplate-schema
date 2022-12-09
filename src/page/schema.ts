@@ -3,11 +3,11 @@ import { CrudSchema, CrudType } from '@2ppl/core/crud';
 
 export const entity = Type.Object({
   id: Type.String(),
-  title: Type.String(),
   name: Type.String(),
-  content: Type.String(),
-  createdAt: Type.Integer(),
-  updatedAt: Type.Integer(),
+  title: Type.Union([Type.String(), Type.Null()]),
+  content: Type.Union([Type.String(), Type.Null()]),
+  createdAt: Type.String(),
+  updatedAt: Type.String(),
 });
 
 export const singleEntity = entity;
