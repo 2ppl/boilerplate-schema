@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/2ppl/boilerplate-schema/compare/v1.0.3...v1.0.4) (2022-12-15)
+
+
+### Bug Fixes
+
+* add default export to package.json ([acfbda1](https://github.com/2ppl/boilerplate-schema/commit/acfbda11ef8b048a3285b1d88f65071143d2b15b))
+
 ## [1.0.3](https://github.com/2ppl/boilerplate-schema/compare/v1.0.2...v1.0.3) (2022-12-12)
 
 
